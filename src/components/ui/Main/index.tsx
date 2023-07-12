@@ -1,9 +1,10 @@
+import About from "../../About";
 import Projects from "../../Projects";
 
 function Main() {
   return (
     <main>
-      <span>Main</span>
+      <About />
       <Projects />
     </main>
   );

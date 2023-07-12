@@ -38,7 +38,7 @@ function Project() {
 function Projects() {
   return (
     <div className="">
-      <h2 className="text-2xl text-center">My Work</h2>
+      <h2 className="font-semibold text-center text-2xl py-3">My Work</h2>
       <Project />
     </div>
   );

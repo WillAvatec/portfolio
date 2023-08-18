@@ -1,5 +1,5 @@
-import About from "../../About";
-import Projects from "../../Projects";
+import About from "../../About/About";
+import Projects from "../../Projects/Projects";
 
 function Main() {
   return (

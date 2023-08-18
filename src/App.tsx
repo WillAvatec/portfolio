@@ -1,6 +1,6 @@
-import Contact from "./components/Contact";
-import Header from "./components/ui/Header";
-import Main from "./components/ui/Main";
+import Contact from "./components/Contact/Contact";
+import Header from "./components/ui/Header/Header";
+import Main from "./components/ui/Main/Main";
 
 function App() {
   return (

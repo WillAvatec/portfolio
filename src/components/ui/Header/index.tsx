@@ -1,6 +1,6 @@
 function Header() {
   return (
-    <header className="flex flex-row justify-center py-4 px-2 bg-gray-950 text-white font-medium">
+    <header className="flex justify-center py-5 px-2 bg-gray-950 text-white font-semibold font-Montserrat">
       <nav>
         <ol className="flex flex-row gap-3">
           <li>

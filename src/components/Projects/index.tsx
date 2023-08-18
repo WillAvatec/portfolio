@@ -2,7 +2,7 @@ import SVGLink from "../utils/SVGLink";
 
 function Project() {
   return (
-    <div className="card-wrapper my-3 mx-6">
+    <div className="card-wrapper my-7 mx-8">
       <div className="card flex flex-col bg-cyan-50 shadow-[rgba(50,_50,_105,_0.15)_0px_2px_5px_0px,_rgba(0,_0,_0,_0.05)_0px_1px_1px_0px]">
         <img src="https://images.pexels.com/photos/16971404/pexels-photo-16971404/free-photo-of-pajaro-animal-mono-pelo.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1" />
         <div className="bg-white text-black">
@@ -37,7 +37,7 @@ function Project() {
 
 function Projects() {
   return (
-    <div className="">
+    <div>
       <h2 className="font-semibold text-center text-2xl py-3">My Work</h2>
       <Project />
     </div>

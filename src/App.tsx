@@ -1,3 +1,4 @@
+import Contact from "./components/Contact";
 import Header from "./components/ui/Header";
 import Main from "./components/ui/Main";
 
@@ -6,6 +7,7 @@ function App() {
     <>
       <Header />
       <Main />
+      <Contact />
     </>
   );
 }

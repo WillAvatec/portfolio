@@ -1,10 +1,10 @@
-import About from "../../About/About";
+import Intro from "../../About/About";
 import Projects from "../../Projects/Projects";
 
 function Main() {
   return (
     <main>
-      <About />
+      <Intro />
       <Projects />
     </main>
   );

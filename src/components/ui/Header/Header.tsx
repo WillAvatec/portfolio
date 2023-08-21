@@ -8,7 +8,7 @@ export default function Header() {
 
   return (
     <header
-      className={`w-full sticky ${shouldShow} top-0 left-0 z-20 overflow-hidden font-semibold transition-all font-Montserrat text-blackest`}
+      className={`w-full sticky ${shouldShow} top-0 left-0 z-30 overflow-hidden font-semibold transition-all font-Montserrat text-blackest shadow-2xl`}
     >
       <HeaderBackground />
       <HeaderWrapper>

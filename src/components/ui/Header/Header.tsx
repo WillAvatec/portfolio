@@ -90,7 +90,7 @@ const NavItem = ({ href, children }: PropsWithChildren<{ href: string }>) => {
 const ContactButton = () => {
   return (
     <button
-      className="text-blackest z-10 border-blackest border-2 rounded-xl sm:rounded-full px-2 py-1  sm:px-3 sm:py-2 transition-transform 
+      className="text-blackest z-10 border-blackest border-4 rounded-xl sm:rounded-full px-2 py-1  sm:px-3 sm:py-2 transition-transform 
     hover:bg-blackest 
     hover:text-whitest 
     hover:scale-110

@@ -1,0 +1,26 @@
+[
+  {
+    "title": "Battleship!",
+    "description": "The classical warfare game runned on the browser. Players take turns guessing coordinates to sink each other's ships.",
+    "technologies": ["React", "React Router", "TypeScript", "Tailwind CSS"],
+    "website": "https://vercel-battleship.vercel.app/",
+    "github": "https://github.com/WillAvatec/battleship-react",
+    "image": "../battleship.png"
+  },
+  {
+    "title": "FakeStore",
+    "description": "An e-commerce website prototype showcasing various products.",
+    "technologies": ["React", "React Router", "CSS"],
+    "website": "https://willavatec.github.io/shopping-cart/",
+    "github": "https://github.com/WillAvatec/shopping-cart",
+    "image": "../shop.png"
+  },
+  {
+    "title": "SushiOh",
+    "description": "A memory cards game with an API integration to fetch data. Developed using React and SASS.",
+    "technologies": ["React", "JavaScript", "SASS"],
+    "website": "https://example.com/sushioh",
+    "github": "",
+    "image": "../shop.png"
+  }
+]

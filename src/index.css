@@ -3,3 +3,88 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+/* Animation text grow */
+
+.grow {
+  opacity: 0;
+  transform: translateY(-50%);
+  transform-origin: top;
+  animation: growText 500ms ease-in-out 100ms 1 forwards;
+}
+
+@keyframes growText {
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+/* Carousel arrows */
+
+#left-arrow,
+#right-arrow {
+  z-index: 20;
+  cursor: pointer;
+  position: absolute;
+  bottom: 45%;
+}
+
+#left-arrow {
+  transform: rotate(180deg);
+  left: -3rem;
+}
+
+#right-arrow {
+  right: -3rem;
+}
+
+@media (max-width: 767px) {
+  #left-arrow,
+  #right-arrow {
+    display: none;
+  }
+}
+
+/* Bubble entrance animation */
+
+.show-bubble {
+  --bubbleMenu-size: 300px;
+  transform-origin: top right;
+  animation: show-from-top 0.8s ease-out forwards;
+}
+
+@media (min-width: 1024px) {
+  .show-bubble {
+    --bubbleMenu-size: 400px;
+  }
+}
+
+@keyframes show-from-top {
+  from {
+    width: 0;
+    height: 0;
+  }
+
+  to {
+    width: var(--bubbleMenu-size);
+    height: var(--bubbleMenu-size);
+  }
+}
+
+/* List Item style */
+
+.link-item::before {
+  content: "";
+  position: absolute;
+  bottom: 0;
+  right: 0;
+  height: 4px;
+  width: 10px;
+  transition: background-color 200ms;
+}
+
+.link-item:hover .link-item::before {
+  width: 10px;
+  left: 0;
+}

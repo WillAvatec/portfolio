@@ -5,22 +5,37 @@
     "technologies": ["React", "React Router", "TypeScript", "Tailwind CSS"],
     "website": "https://vercel-battleship.vercel.app/",
     "github": "https://github.com/WillAvatec/battleship-react",
-    "image": "../battleship.png"
+    "image": "../battleship.png",
+    "colors": {
+      "primary": "",
+      "secondary": "",
+      "bg": "orange"
+    }
   },
   {
     "title": "FakeStore",
-    "description": "An e-commerce website prototype showcasing various products.",
+    "description": "An e-commerce website prototype showcasing various products. This project helped me undestand the concept of routing on the client side.",
     "technologies": ["React", "React Router", "CSS"],
     "website": "https://willavatec.github.io/shopping-cart/",
     "github": "https://github.com/WillAvatec/shopping-cart",
-    "image": "../shop.png"
+    "image": "../shop.png",
+    "colors": {
+      "primary": "",
+      "secondary": "",
+      "bg": "orange"
+    }
   },
   {
     "title": "SushiOh",
     "description": "A memory cards game with an API integration to fetch data. Developed using React and SASS.",
-    "technologies": ["React", "JavaScript", "SASS"],
-    "website": "https://example.com/sushioh",
-    "github": "",
-    "image": "../shop.png"
+    "technologies": ["React", "JavaScript", "CSS"],
+    "website": "https://memory-cards-two.vercel.app/",
+    "github": "https://github.com/WillAvatec/memory-cards",
+    "image": "../sushi.png",
+    "colors": {
+      "primary": "",
+      "secondary": "",
+      "bg": "orange"
+    }
   }
 ]

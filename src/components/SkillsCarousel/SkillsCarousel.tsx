@@ -49,8 +49,8 @@ interface SkillProps {
   name: string;
   iconClass: string;
 }
-function Skill({ name, iconClass }: SkillProps) {
-  const icon = `${iconClass} colored`;
+function Skill({ name }: SkillProps) {
+  /* const icon = `${iconClass} colored`; */
   return (
     <div className="flex flex-row justify-between items-center flex-[0_0_8rem] w-32 mx-4 py-3 px-2">
       <p className="mt-1 text-sm text-center uppercase">{name}</p>

@@ -8,9 +8,7 @@ export default function ProjectCard({
   technologies,
   title,
   website,
-  rotate,
-  colors,
-}: Project & { rotate: boolean }) {
+}: Project) {
   return (
     <article
       className={`relative flex-col gap-3 items-center px-5 md:px-20 mb-20`}

@@ -17,7 +17,7 @@ function Projects() {
       {/* Project Cards Container */}
       <div className="my-0 max-w-5xl mx-auto">
         {projectsData.map((project, i) => {
-          return <ProjectCard rotate={Boolean(i % 2)} key={i} {...project} />;
+          return <ProjectCard key={i} {...project} />;
         })}
       </div>
     </section>

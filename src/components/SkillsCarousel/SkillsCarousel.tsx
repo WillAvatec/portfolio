@@ -1,7 +1,5 @@
-import { useCallback } from "react";
 import useEmblaCarousel from "embla-carousel-react";
 import Autoplay from "embla-carousel-autoplay";
-import Arrow from "../../assets/arrow.svg";
 
 const skills = [
   { name: "react", icon: "devicon-react-original" },
@@ -16,20 +14,17 @@ const skills = [
   { name: "html", icon: "devicon-html5-plain" },
   { name: "npm", icon: "devicon-npm-original-wordmark" },
   { name: "nodejs", icon: "devicon-nodejs-plain" },
+  { name: "vitest", icon: "" },
+  { name: "mongodb", icon: "" },
 ];
 
 function SkillsCarousel() {
-  const [emblaRef, emblaAPI] = useEmblaCarousel({ loop: true }, [
-    Autoplay({ delay: 2000 }),
-  ]);
-
-  const scrollBack = useCallback(() => {
-    if (emblaAPI) emblaAPI.scrollPrev();
-  }, [emblaAPI]);
-
-  const scrollNext = useCallback(() => {
-    if (emblaAPI) emblaAPI.scrollNext();
-  }, [emblaAPI]);
+  const [viewportRef] = useEmblaCarousel(
+    {
+      loop: true,
+    },
+    [Autoplay({ delay: 2000 })]
+  );
 
   return (
     <div className="relative w-full max-w-5xl lg:max-w-[98%] mx-auto">
@@ -39,8 +34,8 @@ function SkillsCarousel() {
       <button id="right-arrow" onClick={scrollNext}>
         <img src={Arrow} alt="right-arrow" />
       </button> */}
-      <div className="overflow-hidden w-full" ref={emblaRef}>
-        <div className="relative flex mx-10 gap-5 cursor-grab active:cursor-grabbing z-10">
+      <div className="overflow-hidden w-full " ref={viewportRef}>
+        <div className="relative flex mx-10 gap-5 z-10">
           {skills.map((skill, i) => (
             <Skill key={i} name={skill.name} iconClass={skill.icon} />
           ))}
@@ -57,9 +52,9 @@ interface SkillProps {
 function Skill({ name, iconClass }: SkillProps) {
   const icon = `${iconClass} colored`;
   return (
-    <div className="flex flex-col flex-[0_0_6rem] w-32 mx-4 py-3 px-2">
-      <i className={`text-6xl text-center mb-2 ${icon}`} />
-      <p className="mt-1 text-xs text-center uppercase">{name}</p>
+    <div className="flex flex-row justify-between items-center flex-[0_0_8rem] w-32 mx-4 py-3 px-2">
+      <p className="mt-1 text-sm text-center uppercase">{name}</p>
+      <div className="w-2 h-2 bg-orange-500 rounded-full " />
     </div>
   );
 }

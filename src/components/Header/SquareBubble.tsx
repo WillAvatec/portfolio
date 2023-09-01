@@ -3,7 +3,7 @@ import ListItem from "./ListItem";
 type SquareBubbleProps = { active: boolean; toggle: (value: boolean) => void };
 
 function SquareBubble({ active, toggle }: SquareBubbleProps) {
-  const showBubble = active ? "show-bubble fixed" : "hidden";
+  const showBubble = active ? "scale-in-tr" : "hidden";
   return (
     <div
       className={`${showBubble} top-0 right-0 font-Montserrat w-[300px] h-[300px] lg:w-[400px] lg:h-[400px] xl:w-[500px] xl:h-[500px] z-[9999] bg-white rounded-bl-full shadow-xl transition-all`}
@@ -29,7 +29,7 @@ function SquareBubble({ active, toggle }: SquareBubbleProps) {
 const CloseButton = ({ toggle }: { toggle: (value: boolean) => void }) => {
   return (
     <button
-      className="absolute top-3 right-3 aspect-square w-14 bg-orange-600 hover:bg-gray-400 rounded-full"
+      className="absolute top-3 right-3 aspect-square w-8 bg-orange-600 hover:bg-gray-400 rounded-full"
       onClick={() => toggle(false)}
     >
       <div className="relative w-full h-full group">

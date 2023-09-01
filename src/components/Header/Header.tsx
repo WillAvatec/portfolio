@@ -1,20 +1,18 @@
 import { PropsWithChildren } from "react";
 import NavItem from "./ListItem";
+import useScroll from "../../hooks/useScroll/useScroll";
 
 type HeaderProps = {
   toggleMenu: (value: boolean) => void;
 };
 
 export default function Header({ toggleMenu }: HeaderProps) {
-  /* 
   const show = useScroll();
-  const shouldShow = show ? "translate-y-0" : "-translate-y-full"; 
-  This should be used on the header tag
-  */
+  const shouldShow = show ? "translate-y-0" : "-translate-y-full";
 
   return (
     <header
-      className={`w-full relative top-0 left-0 z-30 overflow-hidden font-semibold transition-all font-Montserrat text-blackest`}
+      className={`fixed header-bg w-full top-0 left-0 z-30 overflow-hidden font-semibold transition-all font-Montserrat text-blackest ${shouldShow}`}
     >
       <HeaderWrapper>
         <div className="font-black z-10 text-xl sm:text-4xl sm:w-max tracking-tighter transition-transform ease-in-out hover:scale-110">
@@ -67,13 +65,3 @@ const NavBar = ({ toggleMenu }: HeaderProps) => {
     </nav>
   );
 };
-
-/* Protoype for creating reactive background */
-/* const HeaderBackground = () => {
-  return (
-    <div
-      id="header-background"
-      className=" absolute w-full h-full bg-orange-500 transition-colors"
-    ></div>
-  );
-}; */

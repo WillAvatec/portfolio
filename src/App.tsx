@@ -1,12 +1,22 @@
+import { useState } from "react";
 import Contact from "./components/Contact/Contact";
-import Header from "./components/ui/Header/Header";
-import Main from "./components/ui/Main/Main";
+import Header from "./components/Header/Header";
+import Intro from "./components/Intro/Intro";
+import Projects from "./components/Projects/Projects";
+import SquareBubble from "./components/Header/SquareBubble";
+import About from "./components/About/About";
 
 function App() {
+  const [activeMenu, setActiveMenu] = useState(false);
+  const toggleMenu = (newState: boolean) => setActiveMenu(() => newState);
+
   return (
     <>
-      <Header />
-      <Main />
+      <SquareBubble active={activeMenu} toggle={toggleMenu} />
+      <Header toggleMenu={toggleMenu} />
+      <Intro />
+      <About />
+      <Projects />
       <Contact />
     </>
   );

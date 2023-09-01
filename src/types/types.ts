@@ -5,4 +5,11 @@ export interface Project {
   website: string;
   github: string;
   image: string;
+  colors: Colors;
 }
+
+type Colors = {
+  primary: string;
+  secondary: string;
+  bg: string;
+};

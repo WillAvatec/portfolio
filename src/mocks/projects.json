@@ -27,7 +27,7 @@
   },
   {
     "title": "SushiOh",
-    "description": "A memory cards game with an API integration to fetch data. Developed using React and SASS.",
+    "description": "A Sushi based memory cards game . This is the first time I tried to integrate fetch with React.",
     "technologies": ["React", "JavaScript", "CSS"],
     "website": "https://memory-cards-two.vercel.app/",
     "github": "https://github.com/WillAvatec/memory-cards",

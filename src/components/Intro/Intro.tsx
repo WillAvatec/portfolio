@@ -1,6 +1,6 @@
 import { PropsWithChildren } from "react";
 import Blob1 from "../../assets//blob1.svg";
-import Me from "../../assets/photo-handsome-unshaven-guy-looks-with-pleasant-expression-directly-camera-removebg-preview.png";
+import Me from "../../assets/avs.png";
 
 export default function Introduction() {
   return (
@@ -45,7 +45,7 @@ const Right = () => {
       {/* w-72 sm:w-[500px] md:w-[400px] lg:w-[430px] xl:w-[600px] possible breakpoints */}
       <div className="relative h-full w-full">
         <img
-          className="absolute w-full h-full object-cover z-20"
+          className="absolute w-full h-full object-contain z-20"
           alt="placeholder of me"
           src={Me}
         />

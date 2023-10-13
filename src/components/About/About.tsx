@@ -8,7 +8,7 @@ function About() {
       </div>
       <div className="w-[1250px] max-w-full mx-auto px-16 py-12">
         <div className="flex flex-row items-center gap-5 mb-8">
-          <h3 className="text-2xl underline decoration-4  text-orange-600">
+          <h3 className="text-3xl underline decoration-4  text-orange-600">
             About Me
           </h3>
           <div className="w-60 h-[4px] bg-orange-600"></div>
@@ -17,9 +17,10 @@ function About() {
           <Left />
           <Right />
         </div>
-        <blockquote className="text-3xl w-fit border-l-8 p-4">
-          <p>The important thing is to not stop questioning.</p>
-          <p>Curiosity has its own reason to existing.</p>
+        <blockquote className="text-3xl text- w-fit border-l-8 p-4">
+          <p className="italic">
+            The important thing is to never not stop questioning.
+          </p>
           <p className="w-full text-2xl text-right font-extrabold text-orange-600">
             - Albert Einstein
           </p>

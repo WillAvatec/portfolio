@@ -17,15 +17,13 @@ function About() {
           <Left />
           <Right />
         </div>
-        <div>
-          <p className="w-min flex flex-row gap-2 items-center text-xl">
-            {" "}
-            <span className="text-7xl font-extrabold text-orange-600">
-              12
-            </span>{" "}
-            meses de experiencia
+        <blockquote className="text-3xl w-fit border-l-8 p-4">
+          <p>The important thing is to not stop questioning.</p>
+          <p>Curiosity has its own reason to existing.</p>
+          <p className="w-full text-2xl text-right font-extrabold text-orange-600">
+            - Albert Einstein
           </p>
-        </div>
+        </blockquote>
       </div>
     </section>
   );
@@ -45,9 +43,9 @@ const Left = () => {
       <p className="pb-7">
         It was like magic! Driven by that same curiosity, I took on the task of
         installing custom ROMs on cellphones (almost bricking them, by the way),
-        connecting circuits with solder and soldering iron, disassembling broken
-        electronic machines and tools, trying to apply reverse engineering to
-        them...
+        connecting circuits with solder and a soldering iron, disassembling
+        broken electronic machines and tools, trying to apply reverse
+        engineering to them...
       </p>
       <p className="pb-7">
         Many years later, I had the opportunity to interact with the Web. It's a
@@ -57,8 +55,7 @@ const Left = () => {
       </p>
       <p className="pb-7">
         Guided by instinct, I started to learn everything about the web that
-        time would allow me. After a year, with many ups and downs, I managed to
-        reach the rank of FullStack Developer.
+        time would allow me. After a year, full of ups and downs, ...
       </p>
     </div>
   );

@@ -37,5 +37,31 @@
       "secondary": "",
       "bg": "orange"
     }
+  },
+  {
+    "title": "Inventor",
+    "description": "An item management app to ",
+    "technologies": ["NodeJS", "Express", "MongoDB", "Pug"],
+    "website": "https://empty-mountain-1660.fly.dev/catalog",
+    "github": "https://github.com/WillAvatec/inventory_app",
+    "image": "../inventory.png",
+    "colors": {
+      "primary": "",
+      "secondary": "",
+      "bg": "orange"
+    }
+  },
+  {
+    "title": "Swift Connect!",
+    "description": "A mini message board app to post any ideas.",
+    "technologies": ["NodeJS", "Express", "MongoDB", "Pug"],
+    "website": "https://sparkling-fog-9818.fly.dev/",
+    "github": "https://github.com/WillAvatec/mini-message-board",
+    "image": "../swif-connect.png",
+    "colors": {
+      "primary": "",
+      "secondary": "",
+      "bg": "orange"
+    }
   }
 ]

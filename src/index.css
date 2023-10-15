@@ -4,6 +4,20 @@
 @tailwind components;
 @tailwind utilities;
 
+@property --angle {
+  syntax: "<angle>";
+  initial-value: 0deg;
+  inherits: false;
+}
+
+:root {
+  --clr-1: #052b2f;
+  --clr-2: #073438;
+  --clr-3: #0e4b50;
+  --clr-4: #2d8f85;
+  --clr-5: #637c54;
+}
+
 html {
   scroll-behavior: smooth;
 }
@@ -137,4 +151,43 @@ html {
   background: url("./assets/noise_background.png"),
     linear-gradient(to top right, black, #252422);
   box-shadow: 0px 4px 11px 4px rgba(0, 0, 0, 0.5);
+}
+
+/* GLowing Effect */
+
+.glowing-card {
+  background: var(--clr-1);
+  border-radius: 0.5rem;
+  position: relative;
+}
+
+.glowing-card::before,
+.glowing-card::after {
+  content: "";
+  position: absolute;
+  inset: -0.5rem;
+  z-index: -1;
+  background: conic-gradient(
+    from var(--angle),
+    var(--clr-3),
+    var(--clr-4),
+    var(--clr-5),
+    var(--clr-4),
+    var(--clr-3)
+  );
+  border-radius: inherit;
+  animation: rotation 20s linear infinite;
+}
+
+.glowing-card::after {
+  filter: blur(1.5rem);
+}
+
+@keyframes rotation {
+  0% {
+    --angle: 0deg;
+  }
+  100% {
+    --angle: 360deg;
+  }
 }

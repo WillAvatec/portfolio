@@ -4,7 +4,6 @@ import { Project } from "../../types/types";
 export default function ProjectCard({
   description,
   github,
-  image,
   technologies,
   title,
   website,
@@ -20,19 +19,25 @@ export default function ProjectCard({
         website={website}
         github={github}
       />
-      <ImgContainer image={image} alt={title} href={website} />
+      {/*<ImgContainer image={image} alt={title} href={website} />*/}
     </article>
   );
 }
 
+/* 
 type ImgProps = { image: string; alt: string; href: string };
 const ImgContainer = ({ image, alt, href }: ImgProps) => {
   return (
-    <div className="relative">
-      <div className="inline-block w-full"></div>
+    <div className="relative hidden">
+      <div className="inline-block w-full">
+        <a href={href}>
+          <img src={image} alt={alt}></img>
+        </a>
+      </div>
     </div>
   );
-};
+}; 
+*/
 
 type DescriptionProps = {
   info: string;

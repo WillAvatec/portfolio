@@ -7,7 +7,7 @@ function About() {
       <div className="relative bg-black pointer-events-none select-none text-white w-[105%] py-2 mb-10">
         <SkillsCarousel />
       </div>
-      <div className="w-[1250px] max-w-full mx-auto sm:px-16 sm:py-12 px-6 py-8">
+      <div className="w-[1250px] max-w-full mx-auto sm:px-16 sm:py-12 px-8 py-8">
         <div className="flex flex-row items-center gap-5 mb-8">
           <h3 className="text-3xl underline decoration-4  text-orange-600">
             About Me

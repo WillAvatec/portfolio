@@ -56,8 +56,8 @@ const Right = () => {
 
 const ContactButton = () => {
   return (
-    <button
-      className="text-whitest sm:text-xl md:text-2xl font-semibold z-10 border-orange-600 bg-black bg-opacity-50 border-4 px-2 py-1  sm:px-3 sm:py-2 md:px-4 md:py-3 transition-transform
+    <a
+      className="text-whitest text-center sm:text-xl md:text-2xl font-semibold z-10 border-orange-600 bg-black bg-opacity-50 border-4 px-2 py-1  sm:px-3 sm:py-2 md:px-4 md:py-3 transition-transform
       self-center
       sm:self-auto
       w-[230px]
@@ -69,8 +69,9 @@ const ContactButton = () => {
       hover:bg-orange-600
       active:bg-orange-600
     "
+      href="#contact-form"
     >
       Get it touch
-    </button>
+    </a>
   );
 };

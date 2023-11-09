@@ -22,8 +22,6 @@ function Contact() {
             <A href="https://www.linkedin.com/in/emanuel-llontop-huiza-221043272/">
               LinkedIn
             </A>
-            <A href=""> Facebook</A>
-            <A href=""> Instagram</A>
             <A href="https://github.com/WillAvatec"> Github</A>
           </ul>
         </div>

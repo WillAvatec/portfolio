@@ -62,12 +62,12 @@ const Description = ({
   return (
     <div className="relative font-Montserrat">
       <div className="glowing-card relative p-10 z-10 opacity-90 backdrop-blur-md text-white">
-        <h3 className="text-3xl mb-3 uppercase">{title}</h3>
-        <p className="text-base  md:text-lg pb-3 ">{info}</p>
+        <h3 className="text-xl sm:text-3xl mb-3 uppercase">{title}</h3>
+        <p className="text-base md:text-lg pb-3 ">{info}</p>
         <ul className="flex flex-wrap relative z-10 mt-6 text-xs">
           {techStack}
         </ul>
-        <div className="flex items-center justify-end gap-8 relative mt-5">
+        <div className="flex flex-column sm:flex-row items-center justify-end gap-8 relative mt-5">
           <Link href={website}>Preview</Link>
           <Link href={github}>Github</Link>
         </div>

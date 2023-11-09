@@ -47,7 +47,7 @@ function ContactForm() {
           <div className="flex flex-col">
             <label htmlFor="message">Message</label>
             <textarea
-              className="border-b-2 border-gray-300"
+              className="border-b-2 border-gray-300 p-4"
               rows={8}
               id="message"
               name="message"

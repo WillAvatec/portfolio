@@ -1,4 +1,5 @@
 import { useState } from "react";
+import ContactForm from "./components/Form";
 import Contact from "./components/Contact/Contact";
 import Header from "./components/Header/Header";
 import Intro from "./components/Intro/Intro";
@@ -17,6 +18,7 @@ function App() {
       <Intro />
       <About />
       <Projects />
+      <ContactForm />
       <Contact />
     </>
   );

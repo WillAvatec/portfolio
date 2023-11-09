@@ -27,7 +27,7 @@
   },
   {
     "title": "SushiOh",
-    "description": "A Sushi based memory cards game . This is the first time I tried to integrate fetch with React.",
+    "description": "A Sushi based memory cards game. Integrating API fetching to display random images",
     "technologies": ["React", "JavaScript", "CSS"],
     "website": "https://memory-cards-two.vercel.app/",
     "github": "https://github.com/WillAvatec/memory-cards",
@@ -40,7 +40,7 @@
   },
   {
     "title": "Inventor",
-    "description": "An item management app to ",
+    "description": "An item management app to add,delete and update items from DB. ",
     "technologies": ["NodeJS", "Express", "MongoDB", "Pug"],
     "website": "https://empty-mountain-1660.fly.dev/catalog",
     "github": "https://github.com/WillAvatec/inventory_app",
@@ -53,7 +53,7 @@
   },
   {
     "title": "Swift Connect!",
-    "description": "A mini message board app to post any ideas.",
+    "description": "A mini message board app to post any ideas. Use of MongoDB for message persistance",
     "technologies": ["NodeJS", "Express", "MongoDB", "Pug"],
     "website": "https://sparkling-fog-9818.fly.dev/",
     "github": "https://github.com/WillAvatec/mini-message-board",

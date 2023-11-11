@@ -13,12 +13,14 @@ function App() {
 
   return (
     <>
-      <SquareBubble active={activeMenu} toggle={toggleMenu} />
-      <Header toggleMenu={toggleMenu} />
-      <Intro />
-      <About />
-      <Projects />
-      <ContactForm />
+      <div className="bg-white">
+        <SquareBubble active={activeMenu} toggle={toggleMenu} />
+        <Header toggleMenu={toggleMenu} />
+        <Intro />
+        <About />
+        <Projects />
+        <ContactForm />
+      </div>
       <Contact />
     </>
   );

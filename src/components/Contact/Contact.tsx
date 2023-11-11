@@ -7,7 +7,7 @@ function Contact() {
   return (
     <section
       id="contact"
-      className="relative bg-black text-white font-Montserrat px-5 py-7 md:px-20 md:pt-24 md:pb-10"
+      className="sticky bottom-0 -z-50 bg-black text-white font-Montserrat px-5 py-7 md:px-20 md:pt-24 md:pb-10"
       style={style}
     >
       <Email />

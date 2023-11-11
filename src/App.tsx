@@ -13,7 +13,7 @@ function App() {
 
   return (
     <>
-      <div className="bg-white">
+      <div className="bg-white z-10 relative">
         <SquareBubble active={activeMenu} toggle={toggleMenu} />
         <Header toggleMenu={toggleMenu} />
         <Intro />

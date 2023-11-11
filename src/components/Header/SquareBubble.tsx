@@ -17,7 +17,7 @@ function SquareBubble({ active, toggle }: SquareBubbleProps) {
           <ListItem href="#projects" isBubble>
             Projects
           </ListItem>
-          <ListItem href="#contact" isBubble>
+          <ListItem href="#contact-form" isBubble>
             Contact
           </ListItem>
         </ul>

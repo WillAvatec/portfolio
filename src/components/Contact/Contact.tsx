@@ -14,7 +14,7 @@ function Contact() {
       <div className="relative flex flex-col md:flex-row gap-20">
         <div>
           <h5 className="text-gray-500">Contact Details</h5>
-          <p> +51 991586055</p>
+          <p> +51 975459890</p>
         </div>
         <div>
           <h5 className="text-gray-500">Socials</h5>

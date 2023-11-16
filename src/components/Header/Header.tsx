@@ -60,7 +60,7 @@ const NavBar = ({ toggleMenu }: HeaderProps) => {
       <ul className="hidden md:flex flex-row justify-center gap-6">
         <NavItem href="#about">About</NavItem>
         <NavItem href="#projects">Projects</NavItem>
-        <NavItem href="#contact">Contact</NavItem>
+        <NavItem href="#contact-form">Contact</NavItem>
       </ul>
     </nav>
   );

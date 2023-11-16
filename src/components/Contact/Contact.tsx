@@ -7,14 +7,14 @@ function Contact() {
   return (
     <section
       id="contact"
-      className="relative bg-black text-white font-Montserrat px-5 py-7 md:px-20 md:pt-24 md:pb-10"
+      className="sticky bottom-0 -z-50 bg-black text-white font-Montserrat px-5 py-7 md:px-20 md:pt-24 md:pb-10"
       style={style}
     >
       <Email />
       <div className="relative flex flex-col md:flex-row gap-20">
         <div>
           <h5 className="text-gray-500">Contact Details</h5>
-          <p> +51 991586055</p>
+          <p> +51 975459890</p>
         </div>
         <div>
           <h5 className="text-gray-500">Socials</h5>

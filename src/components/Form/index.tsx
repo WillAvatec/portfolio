@@ -8,7 +8,7 @@ function ContactForm() {
   return (
     <section id="contact-form" className="pt-10 pb-24">
       <div className="px-10">
-        <h2 className="font-bold text-3xl mb-10">Contact Me</h2>
+        <h2 className="font-bold text-3xl mb-10">Let's get in touch</h2>
         <form onSubmit={handleSubmit} className="">
           <div className="grid grid-cols-1 sm:grid-cols-2 w-full gap-9 mb-10">
             <div className="flex flex-col ">

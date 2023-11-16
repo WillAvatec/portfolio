@@ -65,8 +65,8 @@ const Left = () => {
 
 const Right = () => {
   return (
-    <div className="flex-1">
-      <img src={Passion} alt="motivational phrase" />
+    <div className="flex-1 bg-white relative z-10">
+      <img loading="lazy" src={Passion} alt="motivational phrase" />
     </div>
   );
 };

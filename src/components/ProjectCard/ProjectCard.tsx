@@ -60,8 +60,8 @@ const Description = ({
   ));
 
   return (
-    <div className="relative font-Montserrat">
-      <div className="glowing-card relative p-10 z-10 opacity-90 backdrop-blur-md text-white">
+    <div className="shadow-xl shadow-lime-900 relative font-Montserrat">
+      <div className="bg-gradient-to-tr from-green-950 to-green-400 relative p-10 z-10 opacity-90 backdrop-blur-md text-white">
         <h3 className="text-xl sm:text-3xl mb-3 uppercase">{title}</h3>
         <p className="text-base md:text-lg pb-3 ">{info}</p>
         <ul className="flex flex-wrap relative z-10 mt-6 text-xs">

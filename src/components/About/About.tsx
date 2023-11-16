@@ -35,30 +35,29 @@ const Left = () => {
   return (
     <div className="flex-1">
       <p>
-        ¡Hola!, me llamo Emanuel Llontop y soy un desarrollador Web FullStack.
+        Hello! My name is Emanuel Llontop, and I am a FullStack Web developer.
       </p>
       <p className="pb-7">
-        Desde muy pequeño siempre estuve maravillado por la tecnología, cosas
-        que usamos frecuentemente sin prestarles mucha atención, tales como un
-        celular o un control remoto.
+        From a very young age, I was always fascinated by technology, things we
+        use frequently without paying much attention to, like a cellphone or a
+        remote control.
       </p>
       <p className="pb-7">
-        ¡Era como magia! Impulsado por esa misma curiosidad, me di a la tarea de
-        instalar ROMS personalizados en celulares (casi brickeandolos, por
-        cierto), conectar circuitos con estaño y cautín, desarmar maquinas y
-        herramientas electronicas malogradas intentando aplicarles ingenieria
-        inversa...
+        It was like magic! Driven by that same curiosity, I took on the task of
+        installing custom ROMs on cellphones (almost bricking them, by the way),
+        connecting circuits with solder and a soldering iron, disassembling
+        broken electronic machines and tools, trying to apply reverse
+        engineering to them...
       </p>
       <p className="pb-7">
-        Muchos años despues, tuve la oportunidad de interactuar con la Web. Es
-        un mundo completamente diferente, del que yo estaba acostumbrado. Tantas
-        personas con tanta habilidad creando experiencias fantasticas, cada
-        diseñador con su propio estilo.
+        Many years later, I had the opportunity to interact with the Web. It's a
+        completely different world from what I was used to. So many people with
+        such skills creating fantastic experiences, each designer with their own
+        style.
       </p>
       <p className="pb-7">
-        Guiandome por el instinto, empece aprender todo lo que el tiempo me
-        permitiera acerca de la web. Despues de un año, con muchos altibajos,
-        conseguí entrar al rango de FullStack Developer.
+        Guided by instinct, I started to learn everything about the web that
+        time would allow me. After a year, full of ups and downs, ...
       </p>
     </div>
   );

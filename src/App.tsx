@@ -1,11 +1,12 @@
-import { useState } from "react";
+import { useState, lazy, Suspense } from "react";
 import ContactForm from "./components/Form";
-import Contact from "./components/Contact/Contact";
 import Header from "./components/Header/Header";
 import Intro from "./components/Intro/Intro";
 import Projects from "./components/Projects/Projects";
 import SquareBubble from "./components/Header/SquareBubble";
 import About from "./components/About/About";
+
+const ContactDelayed = lazy(() => import("./components/Contact/Contact"));
 
 function App() {
   const [activeMenu, setActiveMenu] = useState(false);
@@ -21,7 +22,9 @@ function App() {
         <Projects />
         <ContactForm />
       </div>
-      <Contact />
+      <Suspense fallback={"Loading..."}>
+        <ContactDelayed />
+      </Suspense>
     </>
   );
 }

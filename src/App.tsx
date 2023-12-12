@@ -5,6 +5,7 @@ import Intro from "./components/Intro/Intro";
 import Projects from "./components/Projects/Projects";
 import SquareBubble from "./components/Header/SquareBubble";
 import About from "./components/About/About";
+import { SpeedInsights } from "@vercel/speed-insights/next";
 
 const ContactDelayed = lazy(() => import("./components/Contact/Contact"));
 
@@ -25,6 +26,7 @@ function App() {
       <Suspense fallback={"Loading..."}>
         <ContactDelayed />
       </Suspense>
+      <SpeedInsights />
     </>
   );
 }
